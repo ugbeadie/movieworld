@@ -80,7 +80,7 @@ function App() {
       <Search value={searchTerm} setValue={setSearchTerm}/>
     </div>
     <div id="main" className="flex overflow-x-hidden overflow-y-hidden">
-      {movies.length > 0 
+      {movies?.length > 0 
         ? <MovieCard
           movies={movies}
           alterfav={AddToFav}    
@@ -97,7 +97,7 @@ function App() {
       />
     </div>
     <div id="main" className="flex overflow-x-hidden overflow-y-hidden">
-      {favorites.length > 0 
+      {favorites?.length > 0 
       ? <MovieCard
         movies={favorites}
         alterfav={RemoveFromFav}    
