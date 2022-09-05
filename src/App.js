@@ -79,7 +79,7 @@ function App() {
       <MovieHead heading='Movies'/>
       <Search value={searchTerm} setValue={setSearchTerm}/>
     </div>
-    <div id="main" className="flex overflow-x-hidden overflow-y-hidden">
+    <div id="main" className="flex overflow-x-auto overflow-y-hidden">
       {movies?.length > 0 
         ? <MovieCard
           movies={movies}
@@ -96,7 +96,7 @@ function App() {
       onclear={ClearFavoriteMovies}
       />
     </div>
-    <div id="main" className="flex overflow-x-hidden overflow-y-hidden">
+    <div id="main" className="flex overflow-x-auto overflow-y-hidden">
       {favorites?.length > 0 
       ? <MovieCard
         movies={favorites}

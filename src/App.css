@@ -16,6 +16,10 @@ body {
   color: #ffffff;
 }
 
+#main::-webkit-scrollbar {
+  height: 0 !important;
+}
+
 .search-box input::placeholder {
   font-family: 'Montserrat', sans-serif;
   color: white;
