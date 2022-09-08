@@ -27,7 +27,7 @@ function App() {
 
   
   useEffect(() => {
-    searchMovies('avengers')
+    searchMovies('spiderman')
     searchMovies(searchTerm)
     const favoriteMovies = JSON.parse
     (localStorage.getItem('favorites'))
@@ -87,7 +87,7 @@ function App() {
           handleClick={addMovieToFav}        
         />
         : <p className="font-roboto text-sm px-0 py-2.5 text-center w-full h-[15vh] flex justify-center items-center">
-        Connect to the internet and refresh page to display movies
+        Check spelling or connect to the internet and refresh page to display movies
         </p>}
     </div>
     <div className="flex justify-between items-center m-[10px]">
