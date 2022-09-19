@@ -1,6 +1,6 @@
 # MOVIEMPIRE
 
-[moviempire](https://moviempire.netlify.app/) is an movie search and info site built with react.
+[moviempire](https://moviempire.netlify.app/) is a movie search and info site built with react.
 
 ## Features
 
