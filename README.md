@@ -4,7 +4,7 @@
 
 ## Features
 
-* Movie data was gotten from The Movie Database API.
+* Movie data were gotten from The Movie Database API.
 * Movies searched for can be added to favorites and info of each movie is displayed on a modal.
 * Each movie added to favorites is stored locally for the user to prevent loss of movie on page refresh.
 * Scrolling is done horizonatlly with the mouse wheel(or swiping across for mobile).
